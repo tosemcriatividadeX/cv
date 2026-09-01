@@ -24,9 +24,9 @@ body {
     border-radius: 5%;
     display: flex;
     flex-direction:column;
-    padding: 2%;
+    padding-left: 50px;
+    padding-top: 20px;
     gap: 2%;
-    align-items: center;
 }
 
 .content {
@@ -39,24 +39,54 @@ body {
 .profile-picture {
     border-radius: 50%;
     max-width: 70%;
-    display: flex;
 }
 
 .section1 {
     border: 3px solid rgb(151, 151, 255);
     border-radius: 8px;
-    height: 100px;
+    padding: 20px;
+    height: 180px;
 }
 
 .section2 {
     border: 3px solid rgb(151, 151, 255);
     border-radius: 8px;
-    height: 100px;
+    height: 160px;
+    padding: 20px;
 }
 
-#nome {
-    font-weight: bold;
+.section3 {
+    border: 3px solid rgb(151, 151, 255);
+    border-radius: 8px;
+    height: 160px;
+    padding: 20px;
 }
-img {
-    
+
+h1 {
+    text-align: center;
+    color: rgb(104, 104, 255);
+}
+
+li {
+    color: rgb(104, 104, 255);;
+    margin: 10px;
+}
+
+.section4 {
+    border: 3px solid rgb(151, 151, 255);
+    border-radius: 8px;
+    height: 160px;
+    padding: 20px;
+    }
+
+#nome {
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#ocupação {
+
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
